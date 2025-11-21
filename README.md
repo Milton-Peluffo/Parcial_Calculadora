@@ -1,5 +1,16 @@
 # RESPUESTAS DEL PARCIAL – Calidad de Software Avanzado
 
+### EL SEGUNDO CONTRIBUIDOR QUE APARECE EN MI PROYECTO FUI YO MISMO TRABAJANDO DESDE OTRO DISPOSITIVO, YA QUE QUE NO ME ENCONTRABA EN CASA.
+
+### ----------------------------------- DEMOSTRACION DE ERRORES DE LOS JOBS --------------------------------------------------
+
+
+<img width="1901" height="352" alt="image" src="https://github.com/user-attachments/assets/342b4aea-3ddc-412c-adee-be1b105e6718" />
+<img width="1887" height="694" alt="image" src="https://github.com/user-attachments/assets/4f367b8e-a325-4171-ba32-db802e5a0770" />
+
+
+
+
 ## Parte 1 – Estrategia
 
 ### 1. Diferencia entre CI y CD
