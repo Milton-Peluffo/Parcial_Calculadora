@@ -50,7 +50,7 @@ jobs:
     
     - name: Subir informe de cobertura
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: coverage-report
         path: target/site/jacoco/
@@ -58,7 +58,7 @@ jobs:
     
     - name: Subir informe de Checkstyle
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: checkstyle-report
         path: target/checkstyle-result.xml
