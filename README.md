@@ -12,6 +12,9 @@
 <img width="1889" height="622" alt="image" src="https://github.com/user-attachments/assets/d2e3e04f-20e9-4d80-9a19-686f64478f2a" />
 
 
+## EJECUCIÓN LOCAL CON ACT
+<img width="1243" height="210" alt="Ejecución local con act" src="https://github.com/user-attachments/assets/d1906e14-5536-4e1d-8c00-65f1ff0c4617" />
+
 ## Parte 1 – Estrategia
 
 ### 1. Diferencia entre CI y CD
