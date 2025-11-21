@@ -1,5 +1,16 @@
 # RESPUESTAS DEL PARCIAL – Calidad de Software Avanzado
 
+### EL SEGUNDO CONTRIBUIDOR QUE APARECE EN MI PROYECTO FUI YO MISMO TRABAJANDO DESDE OTRO DISPOSITIVO, YA QUE QUE NO ME ENCONTRABA EN CASA.
+
+### DEMOSTRACION DE ERRORES DE LOS JOBS
+
+
+<img width="1901" height="352" alt="image" src="https://github.com/user-attachments/assets/342b4aea-3ddc-412c-adee-be1b105e6718" />
+<img width="1887" height="694" alt="image" src="https://github.com/user-attachments/assets/4f367b8e-a325-4171-ba32-db802e5a0770" />
+
+
+
+
 ## Parte 1 – Estrategia
 
 ### 1. Diferencia entre CI y CD
@@ -16,6 +27,9 @@ Para la cobertura, usaré JaCoCo, que prácticamente es el estándar en proyecto
 
 ### 3. Umbral mínimo de cobertura (80%)
 Voy a usar un umbral del 80%. No es ni muy bajo ni exageradamente alto. Mantenerlo en 80% es razonable porque obliga a escribir pruebas suficientes sin volverlo una tortura, y además demuestra que el proyecto está relativamente bien cubierto.
+
+<img width="569" height="39" alt="image" src="https://github.com/user-attachments/assets/253edefc-eef6-4738-a5d9-2511d4ebba03" />
+
 
 ## Parte 2 – Workflow CI/CD
 El workflow se hará en un archivo llamado `ci-quality.yml` dentro de `.github/workflows/`.
