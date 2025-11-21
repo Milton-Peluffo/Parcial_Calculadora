@@ -9,10 +9,11 @@
     <module name="LineLength">
         <property name="max" value="120"/>
     </module>
+    <module name="FileLength">
+        <property name="max" value="2000"/>
+    </module>
     
-    <!-- Configuración de TreeWalker -->
     <module name="TreeWalker">
-        <!-- Nombres -->
         <module name="TypeName"/>
         <module name="MethodName">
             <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
@@ -24,15 +25,10 @@
             <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
         </module>
         
-        <!-- Tamaños -->
-        <module name="FileLength">
-            <property name="max" value="2000"/>
-        </module>
         <module name="MethodLength">
             <property name="max" value="100"/>
         </module>
         
-        <!-- Documentación -->
         <module name="JavadocType">
             <property name="scope" value="protected"/>
         </module>
@@ -40,7 +36,6 @@
             <property name="scope" value="protected"/>
         </module>
         
-        <!-- Formato -->
         <module name="EmptyBlock"/>
         <module name="EmptyLineSeparator">
             <property name="tokens" value="PACKAGE_DEF, IMPORT, CLASS_DEF, INTERFACE_DEF, ENUM_DEF, STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF"/>
@@ -66,7 +61,6 @@
             <property name="tokens" value="ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR, BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, EQUAL, GE, GT, LAND, LCURLY, LE, LITERAL_ASSERT, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN, NOT_EQUAL, PLUS, PLUS_ASSIGN, QUESTION, RCURLY, SL, SLIST, SL_ASSIGN, SR, SR_ASSIGN, STAR, STAR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND"/>
         </module>
         
-        <!-- Espacios en blanco al final de línea -->
         <module name="RegexpSingleline">
             <property name="format" value="\s+$"/>
             <property name="message" value="Línea con espacios en blanco al final."/>

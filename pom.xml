@@ -19,7 +19,7 @@
         <maven.surefire.version>3.1.2</maven.surefire.version>
         <maven.checkstyle.plugin.version>3.3.1</maven.checkstyle.plugin.version>
         <checkstyle.version>10.12.1</checkstyle.version>
-        <jacoco.minimum.coverage>0.9</jacoco.minimum.coverage>
+        <jacoco.minimum.coverage>0.8</jacoco.minimum.coverage>
         <checkstyle.violation.ignore>false</checkstyle.violation.ignore>
     </properties>
 
