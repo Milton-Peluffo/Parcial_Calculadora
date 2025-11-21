@@ -45,6 +45,11 @@ El pipeline incluirá:
 - Obtener el reporte de cobertura con JaCoCo.
 - Verificar que la cobertura cumpla el mínimo exigido.
 
+### Informe de las pruebas unitarias con JaCoCo
+
+<img width="1075" height="186" alt="image" src="https://github.com/user-attachments/assets/68089b3c-cb03-4b66-806a-624b35cd10ec" />
+
+
 Si algún paso falla, el workflow debe detenerse inmediatamente.
 
 ## Parte 3 – Uso de nektos/act
