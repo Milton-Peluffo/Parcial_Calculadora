@@ -28,6 +28,9 @@ Para la cobertura, usaré JaCoCo, que prácticamente es el estándar en proyecto
 ### 3. Umbral mínimo de cobertura (80%)
 Voy a usar un umbral del 80%. No es ni muy bajo ni exageradamente alto. Mantenerlo en 80% es razonable porque obliga a escribir pruebas suficientes sin volverlo una tortura, y además demuestra que el proyecto está relativamente bien cubierto.
 
+<img width="569" height="39" alt="image" src="https://github.com/user-attachments/assets/253edefc-eef6-4738-a5d9-2511d4ebba03" />
+
+
 ## Parte 2 – Workflow CI/CD
 El workflow se hará en un archivo llamado `ci-quality.yml` dentro de `.github/workflows/`.
 
