@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Calculadora calc = new Calculadora();
+        Calculadora calculadora = new Calculadora();
         Scanner sc = new Scanner(System.in);
 
         boolean salir = false;
@@ -31,7 +31,7 @@ public class Main {
                     a = sc.nextDouble();
                     System.out.print("Segundo número: ");
                     b = sc.nextDouble();
-                    resultado = calc.sumar(a, b);
+                    resultado = calculadora.sumar(a, b);
                     System.out.println("Resultado: " + resultado);
                     break;
 
@@ -40,7 +40,7 @@ public class Main {
                     a = sc.nextDouble();
                     System.out.print("Segundo número: ");
                     b = sc.nextDouble();
-                    resultado = calc.restar(a, b);
+                    resultado = calculadora.restar(a, b);
                     System.out.println("Resultado: " + resultado);
                     break;
 
@@ -49,7 +49,7 @@ public class Main {
                     a = sc.nextDouble();
                     System.out.print("Segundo número: ");
                     b = sc.nextDouble();
-                    resultado = calc.multiplicar(a, b);
+                    resultado = calculadora.multiplicar(a, b);
                     System.out.println("Resultado: " + resultado);
                     break;
 
@@ -59,7 +59,7 @@ public class Main {
                     System.out.print("Divisor: ");
                     b = sc.nextDouble();
                     try {
-                        resultado = calc.dividir(a, b);
+                        resultado = calculadora.dividir(a, b);
                         System.out.println("Resultado: " + resultado);
                     } catch (ArithmeticException ex) {
                         System.out.println("Error: " + ex.getMessage());
@@ -71,7 +71,7 @@ public class Main {
                     a = sc.nextDouble();
                     System.out.print("Porcentaje (%): ");
                     b = sc.nextDouble();
-                    resultado = calc.porcentaje(a, b);
+                    resultado = calculadora.porcentaje(a, b);
                     System.out.println("Resultado: " + resultado);
                     break;
 
