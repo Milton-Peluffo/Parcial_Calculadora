@@ -48,7 +48,7 @@ El pipeline incluirá:
 
 ### Informe de las pruebas unitarias con JaCoCo
 
-<img width="1075" height="186" alt="image" src="https://github.com/user-attachments/assets/68089b3c-cb03-4b66-806a-624b35cd10ec" />
+<img width="1153" height="157" alt="image" src="https://github.com/user-attachments/assets/b895e167-e809-4071-adee-f3a0a0a08610" />
 
 
 Si algún paso falla, el workflow debe detenerse inmediatamente.
