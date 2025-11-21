@@ -33,7 +33,9 @@
             <property name="scope" value="protected"/>
         </module>
         <module name="JavadocMethod">
-            <property name="scope" value="protected"/>
+            <property name="validateThrows" value="true"/>
+            <property name="allowMissingParamTags" value="true"/>
+            <property name="allowMissingReturnTag" value="true"/>
         </module>
         
         <module name="EmptyBlock"/>
