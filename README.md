@@ -2,7 +2,7 @@
 
 ### EL SEGUNDO CONTRIBUIDOR QUE APARECE EN MI PROYECTO FUI YO MISMO TRABAJANDO DESDE OTRO DISPOSITIVO, YA QUE QUE NO ME ENCONTRABA EN CASA.
 
-### ----------------------------------- DEMOSTRACION DE ERRORES DE LOS JOBS --------------------------------------------------
+### DEMOSTRACION DE ERRORES DE LOS JOBS
 
 
 <img width="1901" height="352" alt="image" src="https://github.com/user-attachments/assets/342b4aea-3ddc-412c-adee-be1b105e6718" />
